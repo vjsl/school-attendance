@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface EstudanteRepository extends JpaRepository<Estudante, Long> {
+
+  //Alteração para o praticando da aula 5
 }
