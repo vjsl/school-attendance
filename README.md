@@ -6,7 +6,6 @@ Este é um projeto web desenvolvido em Java para registro de presença escolar. 
 
 - **Registro de Presença:** Os professores podem marcar a presença dos alunos em cada aula.
 - **Visualização de Presença:** Os professores podem visualizar um histórico da presença de cada aluno ao longo do tempo.
-- **Gerenciamento de Turmas:** Os professores podem criar e gerenciar turmas, atribuindo alunos a elas.
 
 ## Requisitos
 
