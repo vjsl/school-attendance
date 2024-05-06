@@ -10,8 +10,8 @@ Este é um projeto web desenvolvido em Java para registro de presença escolar. 
 
 ## Requisitos
 
-- JDK (Java Development Kit)
-- Apache Maven
+- Java JDK 21
+- NodeJS LTS
 - Banco de dados MySQL (ou outro suportado pelo Hibernate)
 
 ## Como Executar
@@ -22,19 +22,23 @@ Este é um projeto web desenvolvido em Java para registro de presença escolar. 
 
 2. Navegue até o diretório do projeto.
 
-   ``cd app``
+   ``cd backend``
 
-3. Compile o projeto utilizando o Maven.
-   
-   ``mvn compile``
+3. Execute o projeto de backend.
 
-4. Execute o projeto.
+   ``gradlew bootRun``
 
-   ``mvn spring-boot:run``
+4. Abra uma nova aba do terminal e navegue até a pasta do frontend
 
-5. Acesse o aplicativo em seu navegador usando o endereço.
+5. Instale as dependências do NodeJS usando o comando:
 
-   ``http://localhost:8080``
+   ``npm install``
+
+6. Inicie o frontend:
+
+   ``npm run dev``
+
+7. Abra o navegador no endereço http://localhost:3000 
 
 ## Configuração do Banco de Dados
 Por padrão, o projeto está configurado para usar um banco de dados MySQL. Certifique-se de configurar corretamente o arquivo *application.properties* com as credenciais do seu banco de dados.
@@ -49,5 +53,4 @@ Se desejar usar outro banco de dados suportado pelo Hibernate, atualize a URL do
 ## Contribuindo
 Sinta-se à vontade para contribuir com este projeto. Você pode reportar problemas, sugerir novas funcionalidades ou enviar solicitações de pull requests.
 
-Desenvolvido por: grupo Academic Titans
-Contato: seu-email@example.com
+Desenvolvido por: Academic Titans
