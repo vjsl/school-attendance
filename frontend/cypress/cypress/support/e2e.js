@@ -16,5 +16,14 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
+Cypress.config(
+    'baseUrl',
+    `https://attendance.vitorlima.dev/`
+    
+)
+
+Cypress.on( 'uncaught:exceptio', () => {
+    return false
+})
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
